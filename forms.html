@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: white;
+            text-align: center;
+            font-family: "DejaVu Sans";
+            color: blue;
+            margin: 20px;
+            background-image: url(images/1.jpeg);
+        }
+        h2{
+            color: orange;
+            font-family: "JetBrains Mono";
+
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<body>
+<h2>Registration form</h2>
+<form action="">
+<label for="fname">First Name</label><br>
+<input type="text" id="fname" placeholder="enter first name"><br>
+<label for="lname">Last Name</label><br>
+<input type="text" id="lname" placeholder="enter last name"><br>
+<label for="dor">Date of registration</label><br>
+<input type="date" id="dor"><br>
+<label for="course">Course taken</label><br>
+<select name="Course" id="Course" multiple><br>
+
+
+    <option value="Fullstack Software">fullstack</option>
+    <option value="python">python</option>
+    <option value="javascript">javascript</option>
+    <option value="android">android</option>
+    <option value="kotlin">kotlin</option>
+    <option value="sql">sql</option>
+</select>
+<label for="email">Email Address</label><br>
+<input type="email" id="email" placeholder="input your email"><br>
+<label for="pass">Password</label><br>
+<input type="text" id="pass" placeholder="input your password"><br>
+<input type="submit"value="Register here"><br>
+gender
+<label for="male">Male</label>
+<input type="radio"id="male" name="gender"><br>
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender"><br>
+<label for="others">Others</label>
+<input type="radio" id="others" name="gender"><br>
+<label for="img" >upload image</label>
+<input type="file" id="img">
+<button>
+    <input type="button"onclick="alert(Created by Kelvin)"</button>
+</form>
+
+
+</body>
+</html>
